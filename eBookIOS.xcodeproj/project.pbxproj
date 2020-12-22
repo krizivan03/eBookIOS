@@ -19,6 +19,7 @@
 		982A9A592591E9EC0092816C /* bookLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A9A582591E9EC0092816C /* bookLibraryViewController.swift */; };
 		982A9A5E2591E9F40092816C /* favoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A9A5D2591E9F40092816C /* favoritesViewController.swift */; };
 		982A9A632591E9FC0092816C /* getReccomendViewController 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A9A622591E9FC0092816C /* getReccomendViewController 2.swift */; };
+		982A9A71259269790092816C /* booksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A9A70259269790092816C /* booksTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		982A9A582591E9EC0092816C /* bookLibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = bookLibraryViewController.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/bookLibraryViewController.swift"; sourceTree = "<group>"; };
 		982A9A5D2591E9F40092816C /* favoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = favoritesViewController.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/favoritesViewController.swift"; sourceTree = "<group>"; };
 		982A9A622591E9FC0092816C /* getReccomendViewController 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "getReccomendViewController 2.swift"; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/getReccomendViewController 2.swift"; sourceTree = "<group>"; };
+		982A9A70259269790092816C /* booksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booksTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +109,8 @@
 		982A99C92591C07C0092816C /* eBookIOS */ = {
 			isa = PBXGroup;
 			children = (
-				982A9A022591C22E0092816C /* ViewControllers */,
 				982A99CA2591C07C0092816C /* AppDelegate.swift */,
+				982A9A70259269790092816C /* booksTableViewCell.swift */,
 				982A9A582591E9EC0092816C /* bookLibraryViewController.swift */,
 				982A9A5D2591E9F40092816C /* favoritesViewController.swift */,
 				982A9A622591E9FC0092816C /* getReccomendViewController 2.swift */,
@@ -139,13 +141,6 @@
 				982A99EE2591C07D0092816C /* Info.plist */,
 			);
 			path = eBookIOSUITests;
-			sourceTree = "<group>";
-		};
-		982A9A022591C22E0092816C /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +277,7 @@
 				982A9A592591E9EC0092816C /* bookLibraryViewController.swift in Sources */,
 				982A9A5E2591E9F40092816C /* favoritesViewController.swift in Sources */,
 				982A99CF2591C07C0092816C /* mainViewController.swift in Sources */,
+				982A9A71259269790092816C /* booksTableViewCell.swift in Sources */,
 				982A99CB2591C07C0092816C /* AppDelegate.swift in Sources */,
 				982A9A632591E9FC0092816C /* getReccomendViewController 2.swift in Sources */,
 				982A99CD2591C07C0092816C /* SceneDelegate.swift in Sources */,
