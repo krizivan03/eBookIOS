@@ -37,7 +37,6 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Create User"/>
                                 <connections>
-                                    <action selector="logInBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fe-RA-gPg"/>
                                     <segue destination="O5N-cE-tO7" kind="presentation" modalPresentationStyle="currentContext" modalTransitionStyle="coverVertical" id="ekG-TH-aZs"/>
                                 </connections>
                             </button>
@@ -137,12 +136,13 @@
                     <view key="view" contentMode="scaleToFill" id="3EB-oB-ZM1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aHf-Wy-sNo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfV-PF-Pze" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2467" y="-536"/>
+            <point key="canvasLocation" x="2466.666666666667" y="-536.38392857142856"/>
         </scene>
         <!--Get Reccomend View Controller-->
         <scene sceneID="jLe-Xi-L60">
@@ -151,6 +151,7 @@
                     <view key="view" contentMode="scaleToFill" id="37D-mr-V12">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="834-uk-d1d"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
@@ -165,6 +166,7 @@
                     <view key="view" contentMode="scaleToFill" id="DiB-72-O3d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lDN-80-HeS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>

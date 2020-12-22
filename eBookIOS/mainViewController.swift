@@ -24,6 +24,7 @@ class mainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Displays BookLibrary First
         favoritesVC.isHidden = true;
         getRecVC.isHidden = true;
         
@@ -47,7 +48,12 @@ class mainViewController: UIViewController {
         getRecVC.isHidden = true;
         libraryVC.isHidden = false;
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "favoritesSegue" {
+            let favoritesVC = segue.destination as! favoritesViewController
+            favoritesVC.USERID = self.USERID
+        }
+    }
 
 }
 

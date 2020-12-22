@@ -20,7 +20,7 @@ class LogInViewController: UIViewController {
     @IBAction func logInBtn(_ sender: UIButton) {
         if let aUSERID = userIDTextField.text {
             if aUSERID == "" {
-                print("USERID INVALID");
+                showAlert(theMessage: "Please enter User ID")
                 return
                 
             }
@@ -32,7 +32,7 @@ class LogInViewController: UIViewController {
             let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
                 // Check if Error took place
                 if let error = error {
-                    print("Error took place \(error)")
+                    self.showAlert(theMessage: "Error took place \(error)")
                     return
                 }
                 // Read HTTP Response Status code
@@ -45,12 +45,21 @@ class LogInViewController: UIViewController {
                         }
                         
                     } else {
-                        print("FAIL: Response HTTP Status code: \(response.statusCode)")
+                        DispatchQueue.main.async {
+                            print("FAIL: Response HTTP Status code: \(response.statusCode)")
+                            self.showAlert(theMessage: "Invalid User ID")
+                        }
+                        
                     }
                 }
             }
             task.resume()
         }
+    }
+    func showAlert(theMessage: String){
+        let alert = UIAlertController(title: "", message: theMessage, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     
