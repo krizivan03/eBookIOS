@@ -14,8 +14,8 @@
             filePath = "eBookIOS/mainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "mainViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -34,6 +34,114 @@
             endingLineNumber = "6"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE753413-3BCA-4A57-869A-8F81572F0D09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/favoritesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "favoritesViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BE753413-3BCA-4A57-869A-8F81572F0D09 - 355336e181a75772"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eBookIOS.favoritesViewController.USERID.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "eBookIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophercanales/Library/Mobile%20Documents/com~apple~CloudDocs/.Trash/favoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "BE753413-3BCA-4A57-869A-8F81572F0D09 - a844cadd852a877e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eBookIOS.favoritesViewController.USERID.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "eBookIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophercanales/Library/Mobile%20Documents/com~apple~CloudDocs/.Trash/favoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "BE753413-3BCA-4A57-869A-8F81572F0D09 - 2dd53c06ac4f91b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eBookIOS.favoritesViewController.USERID.modify : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "eBookIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophercanales/Library/Mobile%20Documents/com~apple~CloudDocs/.Trash/favoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "BE753413-3BCA-4A57-869A-8F81572F0D09 - 473d613a935ecd6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eBookIOS.favoritesViewController.USERID.modify : Swift.Optional&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "eBookIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophercanales/Library/Mobile%20Documents/com~apple~CloudDocs/.Trash/favoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "BE753413-3BCA-4A57-869A-8F81572F0D09 - 1fcdb01e1d186b90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eBookIOS.favoritesViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; eBookIOS.favoritesViewController"
+                  moduleName = "eBookIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophercanales/Library/Mobile%20Documents/com~apple~CloudDocs/.Trash/favoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "BE753413-3BCA-4A57-869A-8F81572F0D09 - e3baea78cf17a52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eBookIOS.favoritesViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;eBookIOS.favoritesViewController&gt;"
+                  moduleName = "eBookIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christophercanales/Library/Mobile%20Documents/com~apple~CloudDocs/.Trash/favoritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "221">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

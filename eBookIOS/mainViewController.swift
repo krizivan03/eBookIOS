@@ -7,7 +7,9 @@
 
 import UIKit
 
-class mainViewController: UIViewController {
+
+
+class mainViewController: UIViewController{
     var USERID:String?
     
     @IBOutlet weak var reccomendTab: UIBarButtonItem!
@@ -18,15 +20,17 @@ class mainViewController: UIViewController {
     @IBOutlet weak var libraryVC: UIView!
     @IBOutlet weak var getRecVC: UIView!
     @IBOutlet weak var favoritesVC: UIView!
-    //    let favoritesVC = favoritesViewController()
-//    let getReccomendVC = getReccomendViewController()
-//    let bookLibraryVC = bookLibraryViewController()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Displays BookLibrary First
         favoritesVC.isHidden = true;
         getRecVC.isHidden = true;
+        
+        favoritesTab.tintColor = .white
+        libraryTab.tintColor = .systemTeal
+        reccomendTab.tintColor = .white
+        
         
         
         
@@ -37,23 +41,43 @@ class mainViewController: UIViewController {
         getRecVC.isHidden = false;
         libraryVC.isHidden = true;
         
+        favoritesTab.tintColor = .white
+        libraryTab.tintColor = .white
+        reccomendTab.tintColor = .green
+        
     }
     @IBAction func toFavoritesTab(_ sender: UIBarButtonItem) {
         favoritesVC.isHidden = false;
         getRecVC.isHidden = true;
         libraryVC.isHidden = true;
+        
+        favoritesTab.tintColor = .red
+        libraryTab.tintColor = .white
+        reccomendTab.tintColor = .white
     }
     @IBAction func toLibraryTab(_ sender: UIBarButtonItem) {
         favoritesVC.isHidden = true;
         getRecVC.isHidden = true;
         libraryVC.isHidden = false;
+        
+        favoritesTab.tintColor = .white
+        libraryTab.tintColor = .systemTeal
+        reccomendTab.tintColor = .white
+    }
+    func dosome(string: String) {
+        print("TEST")
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "favoritesSegue" {
             let favoritesVC = segue.destination as! favoritesViewController
             favoritesVC.USERID = self.USERID
         }
+        if segue.identifier == "bookLibrarySegue" {
+            let bookLibraryVC = segue.destination as! bookLibraryViewController
+            bookLibraryVC.USERID = self.USERID
+        }
     }
+    
 
 }
 
