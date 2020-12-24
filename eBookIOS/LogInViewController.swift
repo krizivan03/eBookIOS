@@ -83,7 +83,7 @@ class LogInViewController: UIViewController {
                         print("SUCCESS in task 2: Response HTTP Status code: \(response.statusCode)")
                     self.toggleSpinner()
                     let jsonResult = (try! JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers)) as! NSMutableArray
-                    newUSERID = (jsonResult[0] as! NSDictionary)["max"] as! Int
+                    newUSERID = (jsonResult[0] as! NSDictionary)["max"] as? Int
                             DispatchQueue.main.async {
                                 self.USERID = "\(newUSERID!)"
                                 self.showAlertandSegue(theMessage: "Success! Your new User ID is \(newUSERID!)")

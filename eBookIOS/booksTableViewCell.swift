@@ -39,7 +39,7 @@ class booksTableViewCell: UITableViewCell {
 extension UIButton{
     func pulsate() {
         let pulse = CASpringAnimation(keyPath: "transform.scale")
-        pulse.duration = 0.3
+        pulse.duration = 0.2
         pulse.fromValue = 1.0
         pulse.toValue =  0.7
         pulse.autoreverses = true
@@ -47,6 +47,9 @@ extension UIButton{
         pulse.initialVelocity = 0.5
         pulse.damping = 1.0
         layer.add(pulse, forKey: nil)
+//        let animation2 = CABasicAnimation(keyPath: "backgroundColor")
+//        animation2.fromValue = NSColor.red.cgColor
+//        animation2.toValue = NSColor.blue.cgColor
     }
     func flash() {
         let flash = CABasicAnimation(keyPath: "opacity")

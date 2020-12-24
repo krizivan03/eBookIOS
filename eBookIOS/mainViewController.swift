@@ -31,9 +31,6 @@ class mainViewController: UIViewController{
         libraryTab.tintColor = .systemTeal
         reccomendTab.tintColor = .white
         
-        
-        
-        
     }
    
     @IBAction func toReccomentTab(_ sender: UIBarButtonItem) {
@@ -54,6 +51,7 @@ class mainViewController: UIViewController{
         favoritesTab.tintColor = .red
         libraryTab.tintColor = .white
         reccomendTab.tintColor = .white
+        
     }
     @IBAction func toLibraryTab(_ sender: UIBarButtonItem) {
         favoritesVC.isHidden = true;
@@ -64,9 +62,7 @@ class mainViewController: UIViewController{
         libraryTab.tintColor = .systemTeal
         reccomendTab.tintColor = .white
     }
-    func dosome(string: String) {
-        print("TEST")
-    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "favoritesSegue" {
             let favoritesVC = segue.destination as! favoritesViewController
@@ -75,6 +71,10 @@ class mainViewController: UIViewController{
         if segue.identifier == "bookLibrarySegue" {
             let bookLibraryVC = segue.destination as! bookLibraryViewController
             bookLibraryVC.USERID = self.USERID
+        }
+        if segue.identifier == "getReccomendSegue" {
+            let getRecVC = segue.destination as! getReccomendViewController
+            getRecVC.USERID = self.USERID
         }
     }
     
