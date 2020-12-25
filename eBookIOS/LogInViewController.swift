@@ -131,9 +131,7 @@ class LogInViewController: UIViewController {
     func showAlertandSegue(theMessage: String){
         let alert = UIAlertController(title: "", message: theMessage, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default){ (action) in
-//            DispatchQueue.main.async {
                 self.performSegue(withIdentifier: "toMainViewController", sender: self)
-//            }
         })
         self.present(alert, animated: true, completion: nil)
     }
@@ -147,6 +145,9 @@ class LogInViewController: UIViewController {
                 self.loadingSpinner.stopAnimating()
             }
         }
+    }
+    @IBAction func unwindToRootViewController(segue: UIStoryboardSegue) {
+        print("Unwind to Root View Controller")
     }
     
     // MARK: - Navigation
