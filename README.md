@@ -1,7 +1,7 @@
 # eBookIOS
 Visit webApp at https://ebook-ce845.web.app
 
-Below we have the app logo
+<h1>Below we have the app logo</h1>
 <img src="https://github.com/krizivan03/eBookIOS/blob/main/appDemo/AppLogo.png?raw=true" width="300" height="600">
 This the load screen prior to entering the application
 <img src="https://github.com/krizivan03/eBookIOS/blob/main/appDemo/LoadScreen.png?raw=true" width="300" height="600">
