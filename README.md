@@ -2,7 +2,7 @@
 Visit webApp at https://ebook-ce845.web.app
 
 ![](appDemo/AppLogo.png)
-<img src="https://github.com/krizivan03/eBookIOS/blob/main/appDemo/AppBookLibrary.png?raw=true" width="100" height="100">
+<img src="https://github.com/krizivan03/eBookIOS/blob/main/appDemo/AppBookLibrary.png?raw=true" width="200" height="400">
 ![](appDemo/LoadScreen.png)
 ![](appDemo/AppLogin.png)
 ![](appDemo/AppFavoritesScreen.png)
