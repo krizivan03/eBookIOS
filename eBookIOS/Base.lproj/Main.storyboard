@@ -588,7 +588,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BookIMG" width="2103" height="2102"/>
+        <image name="BookIMG" width="1718" height="1326"/>
         <image name="books.vertical" catalog="system" width="128" height="103"/>
         <image name="hand.thumbsup" catalog="system" width="128" height="128"/>
         <image name="heart" catalog="system" width="128" height="109"/>
