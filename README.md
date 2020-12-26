@@ -2,6 +2,7 @@
 Visit webApp at https://ebook-ce845.web.app
 
 ![](appDemo/AppLogo.png)
+<img src="https://appDemo/AppLogo.png" width="100" height="100">
 ![](appDemo/LoadScreen.png)
 ![](appDemo/AppLogin.png)
 ![](appDemo/AppFavoritesScreen.png)
